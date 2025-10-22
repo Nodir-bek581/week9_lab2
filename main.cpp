@@ -105,3 +105,18 @@ int main() {
 */
 
 
+//Problem 7
+/*
+string ikkiniDarajasi(int n) {
+    if (n == 1) return "true";
+    if (n == 0 or n %2 != 0) return "false";
+    return ikkiniDarajasi(n/2);
+}
+
+int main() {
+    int raqam;
+    cin >> raqam;
+    cout << ikkiniDarajasi(raqam) << endl;
+}
+*/
+
