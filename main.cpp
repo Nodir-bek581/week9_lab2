@@ -88,3 +88,19 @@ int main() {
     cout << evenDigitsCounter(raqam) << endl;
 }
 */
+
+
+//Problem 6
+/*
+int productOfDigits(int n) {
+    if (n == 0) return 1;
+    else return (n%10)*productOfDigits(n/10);
+}
+
+int main() {
+    int raqam;
+    cin >> raqam;
+    cout << productOfDigits(raqam) << endl;
+}
+*/
+
