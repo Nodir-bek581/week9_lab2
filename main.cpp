@@ -73,9 +73,18 @@ int main() {
 */
 
 //Problem 5
-
-
+/*
+int evenDigitsCounter(int n) {
+    if (n == 0) return 0;
+    int lastDigit = n % 10;
+    int remainedDigits = n / 10;
+    if (lastDigit % 2 == 0) return 1+evenDigitsCounter(remainedDigits);
+    else return evenDigitsCounter(remainedDigits);
+}
 
 int main() {
-
+    int raqam;
+    cin >> raqam;
+    cout << evenDigitsCounter(raqam) << endl;
 }
+*/
